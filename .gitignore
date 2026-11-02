@@ -1,0 +1,276 @@
+
+# ============================================================
+# WEEK_05 - C++ / PREMAKE / RAYLIB
+# ============================================================
+
+
+# ------------------------------------------------------------
+# BUILD OUTPUTS
+# ------------------------------------------------------------
+
+# Compiled binaries and intermediate build artifacts
+/Binaries/
+
+# Premake-generated project files and workspace files
+/build/
+
+# Common build output directories
+/bin/
+/obj/
+/out/
+/dist/
+
+# CMake-generated build directories (if introduced later)
+/cmake-build-*/
+
+
+# ------------------------------------------------------------
+# C++ COMPILATION ARTIFACTS
+# ------------------------------------------------------------
+
+# Object files
+*.o
+*.obj
+
+# Static and dynamic libraries
+*.lib
+*.a
+*.dll
+*.so
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug symbols and program databases
+*.pdb
+*.ilk
+*.idb
+*.ipch
+*.pch
+*.dSYM/
+
+# Compiler-generated files
+*.gch
+*.gcda
+*.gcno
+*.profraw
+*.profdata
+
+
+# ------------------------------------------------------------
+# VISUAL STUDIO
+# ------------------------------------------------------------
+
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+*.sdf
+*.opensdf
+
+# Visual Studio temporary files
+ipch/
+x64/
+x86/
+Debug/
+Release/
+Win32/
+ARM/
+ARM64/
+
+# MSBuild logs and temporary files
+*.tlog/
+*.lastbuildstate
+*.log
+*.recipe
+*.tmp_proj
+*.cache
+
+
+# ------------------------------------------------------------
+# VISUAL STUDIO CODE
+# ------------------------------------------------------------
+
+.vscode/
+
+# Uncomment if you want to share workspace recommendations
+#!.vscode/extensions.json
+#!.vscode/settings.json
+
+
+# ------------------------------------------------------------
+# OTHER IDEs AND EDITORS
+# ------------------------------------------------------------
+
+.idea/
+*.iml
+
+# CLion
+cmake-build-debug/
+cmake-build-release/
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+
+# Sublime Text
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*.bak
+
+# Emacs
+*~
+\#*\#
+
+
+# ------------------------------------------------------------
+# PREMAKE
+# ------------------------------------------------------------
+
+# Premake-generated workspace/project files
+# Your Build.lua and Vendor/raylib/Build-raylib.lua remain tracked.
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.make
+*.make.*
+
+# Generated IDE metadata
+*.workspace
+*.project
+
+
+# ------------------------------------------------------------
+# OPERATING SYSTEM FILES
+# ------------------------------------------------------------
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.nfs*
+
+
+# ------------------------------------------------------------
+# LOGS AND TEMPORARY FILES
+# ------------------------------------------------------------
+
+*.log
+*.temp
+*.temp.*
+*.bak
+*.old
+*.orig
+*.rej
+
+# Crash dumps
+*.dmp
+*.core
+core
+
+
+# ------------------------------------------------------------
+# PROFILING AND COVERAGE
+# ------------------------------------------------------------
+
+*.prof
+*.profraw
+*.profdata
+*.gcda
+*.gcno
+coverage/
+coverage.xml
+
+
+# ------------------------------------------------------------
+# ENVIRONMENT AND LOCAL CONFIGURATION
+# ------------------------------------------------------------
+
+.env
+.env.*
+!.env.example
+
+# Local machine-specific configuration
+local.settings
+local.settings.*
+
+# Personal scripts and scratch files
+scratch/
+temp/
+tmp/
+
+
+# ------------------------------------------------------------
+# PACKAGE MANAGERS / DEPENDENCY CACHES
+# ------------------------------------------------------------
+
+# Conan
+.conan/
+
+# vcpkg binary cache
+vcpkg_installed/
+
+# NuGet
+packages/
+
+# Generic dependency caches
+.cache/
+.cache-loader/
+
+
+# ------------------------------------------------------------
+# GENERATED DOCUMENTATION
+# ------------------------------------------------------------
+
+# Generated documentation output
+/html/
+/latex/
+/site/
+
+# Keep manually maintained documentation and GIF assets
+# Docs/ is intentionally NOT ignored.
+
+
+# ------------------------------------------------------------
+# RAYLIB
+# ------------------------------------------------------------
+
+# IMPORTANT:
+# Vendor/raylib is intentionally tracked.
+# Do not ignore Vendor/ or Vendor/raylib/.
+# This allows the project to build with its vendored dependency.
+
+
+# ------------------------------------------------------------
+# PROJECT-SPECIFIC NOTES
+# ------------------------------------------------------------
+
+# Keep these directories tracked:
+# Game/
+# Game/include/
+# Game/src/
+# Vendor/raylib/
+# Docs/
+#
+# Ignore only generated build artifacts.
